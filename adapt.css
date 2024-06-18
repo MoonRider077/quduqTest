@@ -89,10 +89,10 @@
         transition: 0.5s ease;
     }
 
-    .banner__image img {
+    .banner__image {
         position: absolute;
-        top: 6px;
-        right: 428px;
+        top: 66px;
+        left: 33px;
     }
 
     .mobile__sliders {
