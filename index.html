@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quduq</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adapt.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+            <img src="./assets/images/header__logo.png" alt="Header logo">
+        </div>
+        <div class="header__items">
+            <div class="header__hamburger">
+                <img src="./assets/icons/burgerMenu.svg" alt="Hamburger icon">
+            </div>
+            <div class="header__order">
+                <img src="./assets/icons/MapPin.svg" alt="Map icon" id="map">
+                <p>Куда доставить?</p>
+                <img class="arrow_1" src="./assets/icons/arrow-down.svg" alt="Arrow icon" id="arrow">
+            </div>
+        </div>
+        <div class="header__menu">
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Новости</a></li>
+        </div>
+        <div class="header__assets">
+            <div class="header__language">
+                <img src="./assets/icons/GlobeSimple.svg" alt="Global icon" id="global">
+                <p>
+                    Рус
+                </p>
+                <img src="./assets/icons/arrow-down.svg" alt="" id="arrow2">
+            </div>
+            <a class="header__number" href="tel:+998950003003">+99895 000 30 03</a>
+            <img class="header__cart" src="./assets/icons/ShoppingCartSimple.svg" alt="Cart icon">
+            <img class="header__user" src="./assets/icons/UserCircle.svg" alt="User Circle icon">
+        </div>
+    </header>
+<!-- Mobile Version -->
+            <div class="mobile__header">
+                <div class="header__mobile_logo">
+                    <img src="./assets/icons/mobileHeaderLogo.png" alt="">
+                </div>
+                <div class="header__icons">
+                    <div class="icons__circle">
+                        <img src="./assets/icons/Phone.svg" alt="icon">
+                    </div>
+                    <div class="icons__circle">
+                        <img src="./assets/icons/GlobeSimple.svg" alt="icon">
+                    </div>
+                    <div class="icons__circle">
+                        <img src="./assets/icons/MapPin.svg" alt="icon">
+                    </div>
+                </div>
+            </div>
+<!-- // -->
+        
+    <section class="first__section">
+        <div class="left__slide">
+            <img src="./assets/icons/arrow-left.svg" alt="left arrow icon">
+        </div>
+        <div class="right__slide" id="right">
+            <img src="./assets/icons/arrow-right.svg" alt="right arrow icon">
+        </div>
+        <div class="banner__container">
+            <h2>Закажите 100 л воды <br> <span>и получите помповый <br> насос в подарок</span></h2>
+            <button class="details__button">Подробнее</button>
+            <img class="banner__image" src="./assets/images/bannerImage.png" alt="Banner image">
+            <img class="sliders" src="./assets/icons/slides.svg" alt="Slide icons">
+        </div>
+    </section>
+
+<!-- Mobile Version -->
+    <div class="mobile__banner">
+        <h2>Закажите 100 л воды <br> <span>и получите помповый <br> насос в подарок</span></h2>
+        <button>Подробнее</button>
+        <div class="banner__image">
+            <img src="./assets/images/MobileFilter.png" alt="Mobile Banner Image">
+        </div>
+        <div class="mobile__sliders">
+            <img src="./assets/icons/slides.svg" alt="Sliders">
+        </div>
+    </div>
+<!-- // -->
+    
+    <section class="production__section">
+        <div class="production__container">
+            <h2>
+                Наша продукция
+            </h2>
+            <div class="rectangles">
+                <div class="rectangle">
+                    <div class="rectangle__description">
+                        <p>Вода, 19 л</p>
+                        <h3>40 000 сум</h3>
+                        <button>В корзину</button>
+                    </div>
+                    <div class="rectangle__picture">
+                        <img src="./assets/images/filter_1.png" alt="Filter">
+                    </div>
+                </div>
+                <div class="rectangle">
+                    <div class="rectangle__description">
+                        <p>Вода, 10 л</p>
+                        <h3>12 000 сум</h3>
+                        <button>В корзину</button>
+                    </div>
+                    <div class="rectangle__picture">
+                        <img src="./assets/images/filter_2.png" alt="Filter">
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="rectangle__description">
+                        <p>Кулер для воды</p>
+                        <h3>5 000 000 сум</h3>
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card__picture">
+                        <img src="./assets/images/filter_3.png" alt="Filter">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="rectangle__description">
+                        <p>Механическая помпа</p>
+                        <h3>20 000 сум</h3>
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card__picture">
+                        <img src="./assets/images/filter_4.png" alt="Filter">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="rectangle__description">
+                        <p>Ручка для баклажки</p>
+                        <h3>14 000 сум</h3>
+                        <button>В корзину</button>
+                    </div>
+                    <div class="card__picture">
+                        <img src="./assets/images/filter_5.png" alt="Filter">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Mobile Version -->
+    <div class="mobile__product">
+        <h2>Наша продукция</h2>
+        <div class="mobile__cards">
+            <div class="mobile__card1">
+                <img src="./assets/images/filter_1.png" alt="Filter icon">
+                <h2>Вода, 19 л</h2>
+                <p>40 000 сум</p>
+                <button>В корзину</button>
+            </div>
+            <div class="mobile__card">
+                <img src="./assets/images/filter_2.png" alt="Filter icon">
+                <h2>Вода, 10 л</h2>
+                <p>12  000 сум</p>
+                <button>В корзину</button>
+            </div>
+            <div class="mobile__card">
+                <img src="./assets/images/filter_3.png" alt="Filter icon">
+                <h2>Кулер для воды</h2>
+                <p>5 000 000 сум</p>
+                <button>В корзину</button>
+            </div>
+            <div class="mobile__card">
+                <img src="./assets/images/filter_4.png" alt="Filter icon">
+                <h2>Механическая помпа</h2>
+                <p>20 000 сум</p>
+                <button>В корзину</button>
+            </div>
+            <div class="mobile__card5">
+                <img src="./assets/images/filter_5.png" alt="Filter icon">
+                <h2>Ручка для баклажки</h2>
+                <p>14 000 сум</p>
+                <button>В корзину</button>
+            </div>
+        </div>
+    </div>
+<!-- // -->
+    
+    <section class="third__section">
+        <div class="whyMe__container">
+            <h2>Почему мы</h2>
+            <div class="accordians">
+                <div class="accordian">
+                    <p>Доблесть наших правозащитников даёт нам право принимать самостоятельные решения</p>
+                    <div class="slide__opener">
+                        <img src="./assets/icons/plus_icon.svg" alt="Plus or Minus">
+                    </div>
+                </div>
+                <div class="accordian">
+                    <p>Убеждённость некоторых оппонентов продолжает удивлять</p>
+                    <div class="slide__opener">
+                        <img src="./assets/icons/plus_icon.svg" alt="Plus or Minus">
+                    </div>
+                </div>
+                <div class="accordian">
+                    <p>Цена вопроса не важна, когда небо темнеет</p>
+                    <div class="slide__opener">
+                        <img src="./assets/icons/plus_icon.svg" alt="Plus or Minus">
+                    </div>
+                </div>
+                <div class="accordian">
+                    <p>Новая модель организационной деятельности показала себя во всей красе</p>
+                    <div class="slide__opener">
+                        <img src="./assets/icons/plus_icon.svg" alt="Plus or Minus">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Mobile Version -->
+    <div class="mobile__third">
+        <h2>Почему мы</h2>
+        <div class="mobile__accordians">
+            <div class="mobile__accordian">
+                <p>Доблесть наших правозащитников даёт нам право принимать самостоятельные решения</p>
+                <div class="accordian__opener">
+                    <img src="./assets/icons/plus_icon.svg" alt="Plus icon">
+                </div>
+            </div>
+            <div class="mobile__accordian">
+                <p>Убеждённость некоторых оппонентов продолжает удивлять</p>
+                <div class="accordian__opener">
+                    <img src="./assets/icons/plus_icon.svg" alt="Plus icon">
+                </div>
+            </div>
+            <div class="mobile__accordian">
+                <p>Цена вопроса не важна, когда небо темнеет</p>
+                <div class="accordian__opener">
+                    <img src="./assets/icons/plus_icon.svg" alt="Plus icon">
+                </div>
+            </div>
+            <div class="mobile__accordian">
+                <p>Новая модель организационной деятельности показала себя во всей красе</p>
+                <div class="accordian__opener">
+                    <img src="./assets/icons/plus_icon.svg" alt="Plus icon">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- // -->
+
+    <section class="news__section">
+        <div class="news__container">
+            <div class="news__navbar">
+                <h2>Новости</h2>
+                <div class="news__sliders">
+                    <div class="news__slider">
+                        <img src="./assets/icons/arrow-left.svg" alt="Arrow icon">
+                    </div>
+                    <div class="news__slider2">
+                        <img src="./assets/icons/arrow-right.svg" alt="Arrow icon">
+                    </div>
+                </div>
+                </div>
+            <div class="news__cards">
+                <div class="news__card">
+                    <img src="./assets/images/newsPicture1.jpg" alt="News picture">
+                    <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
+                    <h3>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполн...</h3>
+                    <button>
+                        Подробнее
+                    </button>
+                </div>
+                <div class="news__card">
+                    <img src="./assets/images/newsPicture2.jpg" alt="News picture">
+                    <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
+                    <h3>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполн...</h3>
+                    <button>
+                        Подробнее
+                    </button>
+                </div>
+                <div class="news__card">
+                    <img src="./assets/images/newsPicture3.jpg" alt="News picture">
+                    <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
+                    <h3>Ясность нашей позиции очевидна: реализация намеченных плановых заданий позволяет выполн...</h3>
+                    <button>
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Mobile Version -->
+    <div class="mobile__news">
+        <div class="mobile__news_navbar">
+                <h2>Новости</h2>
+            <div class="news__sliders_mobile">
+                <div class="news__slider_mobile">
+                    <img src="./assets/icons/arrow-left.svg" alt="Arrow icon">
+                </div>
+                <div class="news__slider2_mobile">
+                    <img src="./assets/icons/arrow-right.svg" alt="Arrow icon">
+                </div>
+            </div>
+        </div>
+        <div class="mobile__news_card">
+            <img src="./assets/images/mobileNewsPicture.jpg" alt="Mobile News Picture">
+            <h2>Оказывается, органический трафик ни к чему нас не обязывает</h2>
+            <p>Ясность нашей позиции очевидна: реализация намеченных плановых...</p>
+            <button>Подробнее</button>
+        </div>
+    </div>
+<!-- // -->
+
+    <footer>
+        <div class="footer__container">
+            <div class="top__slider" onclick="scrollToTop()">
+                <img src="./assets/icons/arrow-up.svg" alt="Arrow">
+            </div>
+            <div class="footer__items">
+                <img src="./assets/images/footerLogo.png" alt="Footer logo">
+                <div class="footer__apps">
+                    <div class="google__app">
+                        <img src="./assets/icons/google_play.svg" alt="Google play" id="google"> 
+                        <p>Загрузите в <br> <span>Google Play</span></p>
+                    </div>
+                    <div class="apple__app">
+                        <img src="./assets/icons/app_store.svg" alt="App store" id="apple">
+                        <p>Загрузите в <br> <span>App Store</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <p>О компании</p>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Пользовательское соглашение</a></li>
+            </div>
+            <div class="footer__contact">
+                <a href="tel:+998950003003">+99895 000 30 03</a>
+                <div class="social__media">
+                    <div class="circle">
+                        <img src="./assets/icons/facebook.svg" alt="Facebook icon">
+                    </div>
+                    <div class="circle">
+                        <img src="./assets/icons/instagram.svg" alt="Instagram icon">
+                    </div>
+                    <div class="circle">
+                        <img src="./assets/icons/telegram.svg" alt="Telegram icon">
+                    </div>
+                </div>
+                <h3>quduqgroup@gmail.com</h3>
+                <p>Toshkent Shahri, Shayxontohur tumani, Istiroxat kochasi, 41-uy</p>
+            </div>
+        </div>
+        <div class="bottom__content">
+            <div class="bottom__title">
+                <h2>2024 © quduq.uz</h2>
+                <p>Доставка воды по городу Ташкент </p>
+                <h3>Разработано в Exord Soft</h3>
+            </div>
+        </div>
+    </footer>
+
+<!-- Mobile Version -->
+    <div class="mobile__footer">
+        <img src="./assets/images/footerLogo.png" alt="Footer logo">
+        <div class="mobile__footer_apps">
+            <div class="footer__google">
+                <img src="./assets/icons/google_play.svg" alt="Google play icon">
+                <p>Загрузите в <span>Google Play</span></p>
+            </div>
+            <div class="footer__app">
+                <img src="./assets/icons/app_store.svg" alt="App store icon">
+                <p>Загрузите в <span>App Store</span></p>
+            </div>
+        </div>
+        <div class="mobile__footer_menu">
+            <p>О компании</p>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+        </div>
+        <div class="mobile__footer_contact">
+            <a href="tel:+998950003003">+99895 000 30 03</a>
+            <div class="mobile__social_media">
+                <div class="mobile__circle">
+                    <img src="./assets/icons/facebook.svg" alt="Facebook icon">
+                </div>
+                <div class="mobile__circle">
+                    <img src="./assets/icons/instagram.svg" alt="Instagram icon">
+                </div>
+                <div class="mobile__circle">
+                    <img src="./assets/icons/telegram.svg" alt="Telegram icon">
+                </div>
+            </div>
+            <p>quduqgroup@gmail.com</p>
+            <p>Toshkent Shahri, Shayxontohur tumani, Istiroxat kochasi, 41-uy</p>
+        </div>
+    </div>
+    <div class="mobile__bottom_content">
+        <div class="line"></div>
+            <p class="quduq">2024 © quduq.uz</p>
+            <p class="order">Доставка воды по городу Ташкент </p>
+            <p class="made">Разработано в Exord Soft</p>
+    </div>
+<!-- // -->
+    
+    </body>
+</html>

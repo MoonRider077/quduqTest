@@ -1,0 +1,488 @@
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .mobile__header {
+        margin: auto;
+        width: 360px;
+        height: 60px;
+        align-items: center;
+        border-bottom: 1px solid #F0F2F6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .header__mobile_logo {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .header__language {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__icons {
+        display: flex;
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .icons__circle {
+        width: 40px;
+        height: 40px;
+        border: 1px solid none;
+        border-radius: 50%;
+        background: #F7F8FA;
+        display: flex;
+        align-items: center;
+        justify-content: center;;
+    }
+
+    .mobile__banner {
+        margin: auto;
+        margin-top: 50px;
+        display: block;
+        width: 320px;
+        height: 400px;
+        background-image: url('./assets/images/MobilBanner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+
+    .mobile__banner h2 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .mobile__banner span {
+        color: #0072BB;
+    }
+
+    .mobile__banner button {
+        width: 152px;
+        height: 40px;
+        border: 1px solid #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        margin-top: 20px;
+        margin-left: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .mobile__banner button:hover {
+        background: #0072BB;
+        color: #FFFFFF;
+        transition: 0.5s ease;
+    }
+
+    .banner__image img {
+        position: absolute;
+        top: 6px;
+        right: 428px;
+    }
+
+    .mobile__sliders {
+        position: absolute;
+        top: 415px;
+        left: 136px;
+    }
+
+    .mobile__product {
+        display: block;
+        margin: auto;
+        margin-top: 73px;
+        width: 320px;
+        max-height: 2200px;
+    }
+
+    .mobile__product h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    .mobile__cards {
+        margin-top: 20px;
+    }
+
+    .mobile__card, .mobile__card1, .mobile__card5 {
+        width: 320px;
+        height: 423px;
+        border: 1px solid #F0F2F6;
+    }
+
+    .mobile__card1 {
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .mobile__card5 {
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .mobile__card img, .mobile__card1 img, .mobile__card5 img {
+        margin-top: 20px;
+        margin-left: 54px;
+        width: 211px;
+        height: 211px;
+    }
+
+    .mobile__card h2, .mobile__card1 h2, .mobile__card5 h2 {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .mobile__card p, .mobile__card1 p, .mobile__card5 p {
+        padding-top: 15px;
+        padding-left: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .mobile__card button, .mobile__card1 button, .mobile__card5 button {
+        width: 220px;
+        height: 50px;
+        border: 1px solid #F7F8FA;
+        border-radius: 50px;
+        background: #F7F8FA;
+        color: #000000;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .mobile__card button:hover, .mobile__card1 button:hover, .mobile__card5 button:hover {
+        background: #0072BB;
+        color: #FFFFFF;
+        transition: 0.5s ease;
+    }
+
+    .mobile__third {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        width: 320px;
+        max-height: 800px;
+    }
+
+    .mobile__third h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    .mobile__accordians {
+        margin-top: 10px;
+    }
+
+    .mobile__accordian {
+        width: 320px;
+        max-height: 500px;
+        border: 1px solid none;
+        border-radius: 16px;
+        background: #F7F8FA;
+        padding: 15px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile__accordian p {
+        width: 219px;
+        max-height: 96px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .accordian__opener {
+        width: 40px;
+        height: 40px;
+        border: 1px solid none;
+        background: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .accordian__opener img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .mobile__news {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        width: 320px;
+        max-height: 500px;
+    }
+
+    .mobile__news_navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .news__sliders_mobile {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .news__slider_mobile, .news__slider2_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid none;
+        border-radius: 50%;
+        background: #F7F8FA;
+        cursor: pointer;
+    }
+    
+    .news__slider_mobile:hover img {
+        content: url('./assets/icons/left-direction-arrow-svgrepo-com.svg');
+        transition: 0.5s ease;
+    }
+    
+    .news__slider2_mobile:hover img {
+        content: url('./assets/icons/right-arrow-svgrepo-com.svg');
+        transition: 0.5s ease;
+    }
+    
+    .news__slider_mobile:hover, .news__slider2_mobile:hover {
+        background: #0072BB;
+        transition: 0.5s ease;
+    }
+
+    .mobile__news_card {
+        width: 320px;
+        height: 405px;
+        border: 1px solid #F0F2F6;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .mobile__news_card h2 {
+        padding-top: 15px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .mobile__news_card p {
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #677E8B;
+    }   
+
+    .mobile__news_card button {
+        margin-top: 15px;
+        width: 220px;
+        height: 50px;
+        border: 1px solid #F0F2F6;
+        border-radius: 50px;
+        background: #F0F2F6;
+        color: #000000;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .mobile__news_card button:hover {
+        background: #0072BB;
+        color: #FFFFFF;
+        transition: 0.5s ease;
+    }
+
+    .mobile__footer {
+        margin: auto;
+        margin-top: 50px;
+        display: block;
+        width: 360px;
+        height: 827px;
+        background: #F7F8FA;
+        padding: 50px 20px 50px 20px;
+    }
+
+    .mobile__footer img {
+        width: 152px;
+        height: 107px;
+    }
+
+    .mobile__footer_apps {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .footer__google, .footer__app {
+        width: 152px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1px solid none;
+        border-radius: 16px;
+        display: flex;
+        gap: 4px;
+    }
+
+    .footer__google {
+        padding: 10px 10px 11px 10px;
+    }
+
+    .footer__app {
+        padding: 10px 26px 11px 10px;
+    }
+
+    .footer__google img, .footer__app img {
+        margin-top: 4px;
+        width: 31px;
+        height: 31px;
+    }
+
+    .footer__google p, .footer__app p {
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .footer__google span, .footer__app span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .mobile__footer_menu {
+        margin-top: 50px;
+    }
+
+    .mobile__footer_menu p {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #0072BB;
+    }
+
+    .mobile__footer_menu li {
+        padding-top: 15px;
+    }
+
+    .mobile__footer_menu a {
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .mobile__footer_contact {
+        margin-top: 50px;
+    }
+
+    .mobile__footer_contact a {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #0072BB;
+    }
+
+    .mobile__social_media {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .mobile__social_media img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .mobile__circle {
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 1px solid none;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile__footer_contact p {
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #677E8B;
+    }
+
+    .mobile__bottom_content {
+        display: block;
+        margin: auto;
+        width: 360px;
+        height: 123px;
+        background: #F7F8FA;
+        padding: 0 106px 20px 20px;
+    }
+
+    .line {
+        margin: auto;
+        width: 320px;
+        height: 1px;
+        background: #EAEDF2;
+    }
+
+    .quduq {
+        padding-top: 20px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #677E8B;
+    }
+
+    .order {
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #0072BB;
+    }
+
+    .made {
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #677E8B;
+    }
+
+    header, 
+    .first__section, 
+    .production__section, 
+    .third__section, 
+    .news__section, 
+    footer  {
+        display: none;
+    }
+}
